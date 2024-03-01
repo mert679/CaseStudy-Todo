@@ -1,0 +1,95 @@
+*{
+  background-color: rgb(19, 19, 123);
+}
+.wrapper{
+  display: flex;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1% auto;
+  
+}
+.wrapper *{
+  background-color: white;
+}
+.card{
+  width: 420px;
+  margin-bottom: 10px;
+
+}
+.card-body{
+  border-radius: 10px;
+}
+.below_interaction{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.interaction button{
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+
+}
+
+
+.actions button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+} 
+.profile_img{
+  width: 50px;
+  height: 50px;
+}
+.above_content{
+  display: flex;
+  align-items: center;
+}
+.above_content .context{
+  margin-left: 30px;
+}
+.context textarea{
+  width: 250px;
+  height: auto;
+  resize: none;
+  border: none;
+  outline: none;
+   
+}
+.line {
+  width: 100%;
+  height: 1px; 
+  background-color: gray;
+  margin: 10px;
+}
+
+.content_area{
+  margin: 5% auto;
+  width: 420px;
+  height: 200px;
+
+  border-radius: 7px;
+}
+.sbmt_btn{
+  float:right;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 6px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(163, 52, 163);
+  color: white;
+}
+.main_content{
+  height: 100px; 
+  width: 200px;
+  resize: none;
+  border: none;
+  margin-top: 10px;
+  outline: none;
+}
